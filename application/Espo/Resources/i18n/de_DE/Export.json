@@ -1,0 +1,17 @@
+{
+  "fields": {
+    "fieldList": "Feldliste",
+    "exportAllFields": "Exportieren alle Felder"
+  },
+  "options": {
+    "status": {
+      "Pending": "Ausstehend",
+      "Running": "In Bearbeitung",
+      "Success": "Erfolgreich",
+      "Failed": "Fehlgeschlagen"
+    }
+  },
+  "messages": {
+    "exportProcessed": "Export wurde verarbeitet. [Datei]({url}) herunterladen."
+  }
+}

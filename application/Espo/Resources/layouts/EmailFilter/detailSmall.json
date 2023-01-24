@@ -1,0 +1,36 @@
+[
+    {
+        "rows": [
+            [
+                {"name": "name"}
+            ],
+            [
+                {"name": "parent"}
+            ],
+            [
+                {"name": "action"}
+            ],
+            [
+                {"name": "emailFolder"}
+            ],
+            [
+                {"name": "groupEmailFolder"}
+            ],
+            [
+                {"name": "markAsRead"}
+            ],
+            [
+                {"name": "from"}
+            ],
+            [
+                {"name": "to"}
+            ],
+            [
+                {"name": "subject"}
+            ],
+            [
+                {"name": "bodyContains"}
+            ]
+        ]
+    }
+]

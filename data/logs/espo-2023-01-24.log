@@ -1,0 +1,1 @@
+[2023-01-24 12:23:25] ERROR: Uncaught Exception PDOException: "could not find driver" at C:\xampp\htdocs\EspoCRM\application\Espo\ORM\PDO\DefaultPDOProvider.php line 97 {"exception":"[object] (PDOException(code: 0): could not find driver at C:\\xampp\\htdocs\\EspoCRM\\application\\Espo\\ORM\\PDO\\DefaultPDOProvider.php:97)"} []

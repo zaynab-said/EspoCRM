@@ -1,0 +1,57 @@
+[
+    {
+        "route": "/Activities/:scope/:id/:name",
+        "method": "get",
+        "params": {
+            "controller": "Activities",
+            "action": "list",
+            "scope": ":scope",
+            "id": ":id",
+            "name": ":name"
+        }
+    },
+    {
+        "route": "/Activities",
+        "method": "get",
+        "params": {
+            "controller": "Activities",
+            "action": "listCalendarEvents"
+        }
+    },
+    {
+        "route": "/Timeline",
+        "method": "get",
+        "params": {
+            "controller": "Activities",
+            "action": "getTimeline"
+        }
+    },
+    {
+        "route": "/Activities/:scope/:id/:name/list/:entityType",
+        "method": "get",
+        "params": {
+            "controller": "Activities",
+            "action": "entityTypeList",
+            "scope": ":scope",
+            "id": ":id",
+            "name": ":name",
+            "entityType": ":entityType"
+        }
+    },
+    {
+        "route": "/Meeting/:id/attendees",
+        "method": "get",
+        "params": {
+            "controller": "Meeting",
+            "action": "attendees"
+        }
+    },
+    {
+        "route": "/Call/:id/attendees",
+        "method": "get",
+        "params": {
+            "controller": "Call",
+            "action": "attendees"
+        }
+    }
+]
