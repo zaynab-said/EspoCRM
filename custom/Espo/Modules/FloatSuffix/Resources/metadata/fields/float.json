@@ -1,0 +1,11 @@
+{
+    "view": "float-suffix:views/fields/float",
+    "params": [
+        "__APPEND__",
+        {
+            "name": "Suffix",
+            "type": "varchar",
+            "tooltip": true
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+<div class="field" data-name="{{name}}">{{value}}   {{#if params.Suffix}}{{params.Suffix}}{{/if}}</div>
