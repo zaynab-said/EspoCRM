@@ -2,9 +2,16 @@ define('float-suffix:views/fields/float', ['views/fields/float'], function (Dep)
 
     return Dep.extend({
 
-        detailTemplate: 'float-suffix:fields/float/detail',
-        
-        editTemplate: 'float-suffix:fields/float/edit',
+        afterRender: function () {
+          Dep.prototype.afterRender.call(this);
+
+          if (this.model.get(this.name) && "Suffix" in this.params && this.params.Suffix != null) {
+
+            this.$el.append('<span>   '+this.params.Suffix+'</span>');
+
+          }
+
+        }
        
     });
     

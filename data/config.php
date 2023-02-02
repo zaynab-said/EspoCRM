@@ -1,6 +1,6 @@
 <?php
 return [
-  'useCache' => true,
+  'useCache' => false,
   'jobMaxPortion' => 15,
   'jobRunInParallel' => false,
   'jobPoolConcurrencyNumber' => 8,
@@ -219,9 +219,19 @@ return [
     1 => 'email',
     2 => 'phone'
   ],
-  'cacheTimestamp' => 1674562977,
-  'microtime' => 1674562977.247048,
+  'cacheTimestamp' => 1675201610,
+  'microtime' => 1675201610.95394,
   'siteUrl' => 'http://localhost/EspoCRM',
   'fullTextSearchMinLength' => 4,
-  'appTimestamp' => 1674562955
+  'appTimestamp' => 1674562955,
+  'maintenanceMode' => false,
+  'cronDisabled' => false,
+  'emailAddressIsOptedOutByDefault' => false,
+  'cleanupDeletedRecords' => false,
+  'workingTimeCalendarName' => NULL,
+  'workingTimeCalendarId' => NULL,
+  'fiscalYearShift' => 0,
+  'addressCityList' => [],
+  'addressStateList' => [],
+  'addressCountryList' => []
 ];
