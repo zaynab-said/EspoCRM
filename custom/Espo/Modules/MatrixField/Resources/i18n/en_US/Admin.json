@@ -1,0 +1,11 @@
+{
+    "fieldTypes": {
+        "matrix": "Matrix"
+    },
+    "fields": {
+        "xPoint": "x-point",
+        "yPoint": "y-point",
+        "xSize": "x-size",
+        "ySize": "y-size"
+    }
+}

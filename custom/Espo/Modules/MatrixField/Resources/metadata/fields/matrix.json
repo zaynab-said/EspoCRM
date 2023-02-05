@@ -1,0 +1,64 @@
+{
+    "view": "matrix-field:views/fields/matrix",
+    "params": [
+        {
+            "name": "xSize",
+            "type": "int",
+            "required": true,
+            "min": 1,
+            "max": 10,
+            "default": 10
+        },
+        {
+            "name": "ySize",
+            "type": "int",
+            "required": true,
+            "min": 1,
+            "max": 10,
+            "default": 10
+        },
+        {
+            "name": "required",
+            "type": "bool",
+            "default": false
+        }
+    ],
+    "actualFields": [
+        "xPoint",
+        "yPoint"
+    ],
+    "notActualFields": [],
+    "fields": {
+        "xPoint": {
+            "type": "int",
+            "min": 1,
+            "max": 10,
+            "default": 1,
+            "customizationDisabled": true,
+            "customizationDefaultDisabled": true,
+            "customizationMinDisabled": true,
+            "customizationMaxDisabled": true,
+            "customizationRequiredDisabled": true,
+            "customizationAuditedDisabled": true,
+            "customizationReadOnlyDisabled": true,
+            "customizationDisableFormattingDisabled": true,
+            "customizationInlineEditDisabledDisabled": true
+        },
+        "yPoint": {
+            "type": "int",
+            "min": 1,
+            "max": 10,
+            "default": 1,
+            "customizationDisabled": true,
+            "customizationDefaultDisabled": true,
+            "customizationMinDisabled": true,
+            "customizationMaxDisabled": true,
+            "customizationRequiredDisabled": true,
+            "customizationAuditedDisabled": true,
+            "customizationReadOnlyDisabled": true,
+            "customizationDisableFormattingDisabled": true,
+            "customizationInlineEditDisabledDisabled": true
+        }
+    },
+    "skipOrmDefs": true
+}

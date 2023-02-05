@@ -1,0 +1,1 @@
+<div class="field" data-name="{{name}}">X={{xPoint}},y={{yPoint}}</div>
